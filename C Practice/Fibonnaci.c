@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     printf("First %d Fibonnaci Numbers\n", n);
     printf(".................................\n");
     printf("%d %d", num1, num2);
-    for (int i = 1; i <= n; i++){
+    for (int i = 1; i <= n - 2; i++){
         num3 = num1 + num2;
         printf(" %d", num3);
         num1 = num2;
